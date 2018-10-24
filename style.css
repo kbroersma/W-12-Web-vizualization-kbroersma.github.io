@@ -1,0 +1,10 @@
+/* adding margin for add image*/
+.weather-quote img {
+    margin-left: 50px;
+}
+/* mozilla fix for responsive tables*/
+@-moz-document url-prefix() {
+    fieldset {
+        display: table-cell;
+    }
+}
